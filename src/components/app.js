@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UserList from './user/userList';
-import UserDetails from './user/userDetail'
+import UserDetails from './user/userDetail';
+import FoodList from './food/foodList';
 
 export default class App extends Component {
   render() {
@@ -8,7 +9,8 @@ export default class App extends Component {
       <div>
         <div>React Redux ca marche</div>
         <UserList></UserList>
-        <UserDetails></UserDetails>  
+        <UserDetails></UserDetails>
+        <FoodList></FoodList>  
       </div>
       
     );
